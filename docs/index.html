@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>환경과 삶 II 교육과정 개발 보고서</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">🌍 환경과 삶 II</div>
+            <ul class="nav-menu">
+                <li><a href="#overview">개요</a></li>
+                <li><a href="#curriculum">교육과정</a></li>
+                <li><a href="#blocks">블록수업</a></li>
+                <li><a href="#materials">개발자료</a></li>
+                <li><a href="#features">특징</a></li>
+                <li><a href="#plan">향후계획</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 헤더 -->
+    <header id="header">
+        <div class="header-overlay"></div>
+        <div class="container">
+            <div class="header-content">
+                <div class="header-badge">2025 교육과정 개발 프로젝트</div>
+                <h1 class="header-title">🌍 환경과 삶 II</h1>
+                <p class="header-subtitle">블록타임 기반 세계시민 환경교육 교육과정</p>
+                <div class="header-description">
+                    세계화 시대, 환경문제를 글로벌 관점에서 이해하고<br>
+                    세계시민으로서의 환경 책임을 실천하는 교육과정
+                </div>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-icon">🎯</div>
+                        <div class="info-label">대상</div>
+                        <div class="info-value">초등 6학년</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📚</div>
+                        <div class="info-label">총 차시</div>
+                        <div class="info-value">32차시</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📦</div>
+                        <div class="info-label">블록 수</div>
+                        <div class="info-value">17개 블록</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📅</div>
+                        <div class="info-label">개발 년도</div>
+                        <div class="info-value">2025</div>
+                    </div>
+                </div>
+                <a href="#overview" class="scroll-down">
+                    <span>스크롤하여 더보기</span>
+                    <div class="scroll-icon">↓</div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 메인 컨텐츠는 script.js에서 동적 생성 -->
+    <div id="mainContent"></div>
+
+    <!-- 푸터 -->
+    <footer id="footer">
+        <div class="container">
+            <p class="footer-title">🌍 환경과 삶 II 교육과정 개발 프로젝트</p>
+            <p class="footer-subtitle">2025 남대구초등학교 교육과정 개발팀</p>
+            <p class="footer-motto">지구는 하나, 우리는 세계시민</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="blocks-data.js"></script>
+    <script src="thinking-routines.js"></script>
+    <script src="resource-mapping.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
