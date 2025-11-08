@@ -15,8 +15,8 @@ const blocksData = [
         ],
         thinkingRoutine: "See-Think-Wonder",
         keywords: ["환경", "일상생활", "연결성"],
-        lessonPlan: "../지도안/블록01_지도안_환경과나의삶.html",
-        worksheet: "../학습지/블록01_학습지_환경과나의삶.html"
+        lessonPlan: "./지도안/블록01_지도안_환경과나의삶.html",
+        worksheet: "./학습지/블록01_학습지_환경과나의삶.html"
     },
     {
         id: 2,
@@ -33,8 +33,8 @@ const blocksData = [
         ],
         thinkingRoutine: "Think-Pair-Share",
         keywords: ["플라스틱", "쓰레기", "에너지"],
-        lessonPlan: "../지도안/블록02_지도안_일상속환경문제발견.html",
-        worksheet: "../학습지/블록02_학습지_일상속환경문제발견.html"
+        lessonPlan: "./지도안/블록02_지도안_일상속환경문제발견.html",
+        worksheet: "./학습지/블록02_학습지_일상속환경문제발견.html"
     },
     {
         id: 3,
@@ -51,8 +51,8 @@ const blocksData = [
         ],
         thinkingRoutine: "Connect-Extend-Challenge",
         keywords: ["환경 발자국", "나비효과"],
-        lessonPlan: "../지도안/블록03_지도안_개인의선택과지구환경.html",
-        worksheet: "../학습지/블록03_학습지_개인의선택과지구환경.html"
+        lessonPlan: "./지도안/블록03_지도안_개인의선택과지구환경.html",
+        worksheet: "./학습지/블록03_학습지_개인의선택과지구환경.html"
     },
     {
         id: 4,
@@ -69,8 +69,8 @@ const blocksData = [
         ],
         thinkingRoutine: "I Used to Think...Now I Think",
         keywords: ["태도", "책임감", "실천"],
-        lessonPlan: "../지도안/블록04_지도안_환경문제해결의태도.html",
-        worksheet: "../학습지/블록04_학습지_환경문제해결의태도.html"
+        lessonPlan: "./지도안/블록04_지도안_환경문제해결의태도.html",
+        worksheet: "./학습지/블록04_학습지_환경문제해결의태도.html"
     },
     {
         id: 5,
@@ -87,8 +87,8 @@ const blocksData = [
         ],
         thinkingRoutine: "See-Think-Wonder",
         keywords: ["기후변화", "온난화", "IPCC"],
-        lessonPlan: "../지도안/블록05_지도안_기후변화의원인과현상.html",
-        worksheet: "../학습지/블록05_학습지_기후변화의원인과현상.html"
+        lessonPlan: "./지도안/블록05_지도안_기후변화의원인과현상.html",
+        worksheet: "./학습지/블록05_학습지_기후변화의원인과현상.html"
     },
     {
         id: 6,
@@ -105,8 +105,8 @@ const blocksData = [
         ],
         thinkingRoutine: "Think-Pair-Share",
         keywords: ["생물다양성", "CBD", "COP15"],
-        lessonPlan: "../지도안/블록06_지도안_생물다양성의중요성.html",
-        worksheet: "../학습지/블록06_학습지_생물다양성의중요성.html"
+        lessonPlan: "./지도안/블록06_지도안_생물다양성의중요성.html",
+        worksheet: "./학습지/블록06_학습지_생물다양성의중요성.html"
     },
     {
         id: 7,
@@ -123,8 +123,8 @@ const blocksData = [
         ],
         thinkingRoutine: "Connect-Extend-Challenge",
         keywords: ["SDGs", "지속가능발전", "국제 협력"],
-        lessonPlan: "../지도안/블록07_지도안_지속가능발전과연대.html",
-        worksheet: "../학습지/블록07_학습지_지속가능발전과연대.html"
+        lessonPlan: "./지도안/블록07_지도안_지속가능발전과연대.html",
+        worksheet: "./학습지/블록07_학습지_지속가능발전과연대.html"
     },
     {
         id: 8,
@@ -141,8 +141,8 @@ const blocksData = [
         ],
         thinkingRoutine: "I Used to Think...Now I Think, What? So What? Now What?",
         keywords: ["평가", "성찰", "포트폴리오"],
-        lessonPlan: "../지도안/블록08_지도안_총괄평가I.html",
-        worksheet: "../학습지/블록08_학습지_총괄평가I.html"
+        lessonPlan: "./지도안/블록08_지도안_총괄평가I.html",
+        worksheet: "./학습지/블록08_학습지_총괄평가I.html"
     },
     {
         id: 9,
@@ -159,8 +159,8 @@ const blocksData = [
         ],
         thinkingRoutine: "See-Think-Wonder",
         keywords: ["세계화", "연결성", "상호의존성"],
-        lessonPlan: "../지도안/블록09_지도안_세계화와환경문제연결성.html",
-        worksheet: "../학습지/블록09_학습지_세계화와환경문제연결성.html"
+        lessonPlan: "./지도안/블록09_지도안_세계화와환경문제연결성.html",
+        worksheet: "./학습지/블록09_학습지_세계화와환경문제연결성.html"
     },
     {
         id: 10,
@@ -177,8 +177,8 @@ const blocksData = [
         ],
         thinkingRoutine: "Think-Pair-Share",
         keywords: ["복잡성", "불확실성", "티핑포인트"],
-        lessonPlan: "../지도안/블록10_지도안_환경문제의복잡성불확실성.html",
-        worksheet: "../학습지/블록10_학습지_환경문제의복잡성불확실성.html"
+        lessonPlan: "./지도안/블록10_지도안_환경문제의복잡성불확실성.html",
+        worksheet: "./학습지/블록10_학습지_환경문제의복잡성불확실성.html"
     },
     {
         id: 11,
@@ -195,8 +195,8 @@ const blocksData = [
         ],
         thinkingRoutine: "Connect-Extend-Challenge",
         keywords: ["협력", "거버넌스", "세대 간 연대"],
-        lessonPlan: "../지도안/블록11_지도안_지속가능미래위한협력.html",
-        worksheet: "../학습지/블록11_학습지_지속가능미래위한협력.html"
+        lessonPlan: "./지도안/블록11_지도안_지속가능미래위한협력.html",
+        worksheet: "./학습지/블록11_학습지_지속가능미래위한협력.html"
     },
     {
         id: 12,
@@ -213,8 +213,8 @@ const blocksData = [
         ],
         thinkingRoutine: "See-Think-Wonder",
         keywords: ["저해요인", "경제성장", "소비주의"],
-        lessonPlan: "../지도안/블록12_지도안_지속가능미래저해요인.html",
-        worksheet: "../학습지/블록12_학습지_지속가능미래저해요인.html"
+        lessonPlan: "./지도안/블록12_지도안_지속가능미래저해요인.html",
+        worksheet: "./학습지/블록12_학습지_지속가능미래저해요인.html"
     },
     {
         id: 13,
@@ -231,8 +231,8 @@ const blocksData = [
         ],
         thinkingRoutine: "Think-Pair-Share",
         keywords: ["감수성", "자연", "공감"],
-        lessonPlan: "../지도안/블록13_지도안_환경감수성기르기.html",
-        worksheet: "../학습지/블록13_학습지_환경감수성기르기.html"
+        lessonPlan: "./지도안/블록13_지도안_환경감수성기르기.html",
+        worksheet: "./학습지/블록13_학습지_환경감수성기르기.html"
     },
     {
         id: 14,
@@ -249,8 +249,8 @@ const blocksData = [
         ],
         thinkingRoutine: "I Used to Think...Now I Think",
         keywords: ["생태전환", "로컬푸드", "공정무역"],
-        lessonPlan: "../지도안/블록14_지도안_생활속생태전환실천.html",
-        worksheet: "../학습지/블록14_학습지_생활속생태전환실천.html"
+        lessonPlan: "./지도안/블록14_지도안_생활속생태전환실천.html",
+        worksheet: "./학습지/블록14_학습지_생활속생태전환실천.html"
     },
     {
         id: 15,
@@ -267,8 +267,8 @@ const blocksData = [
         ],
         thinkingRoutine: "What? So What? Now What?",
         keywords: ["프로젝트", "캠페인", "Fridays for Future"],
-        lessonPlan: "../지도안/블록15_지도안_학교지역생태전환.html",
-        worksheet: "../학습지/블록15_학습지_학교지역생태전환.html"
+        lessonPlan: "./지도안/블록15_지도안_학교지역생태전환.html",
+        worksheet: "./학습지/블록15_학습지_학교지역생태전환.html"
     },
     {
         id: 16,
@@ -285,8 +285,8 @@ const blocksData = [
         ],
         thinkingRoutine: "Connect-Extend-Challenge",
         keywords: ["평가", "발표", "성찰"],
-        lessonPlan: "../지도안/블록16_지도안_총괄평가II.html",
-        worksheet: "../학습지/블록16_학습지_총괄평가II.html"
+        lessonPlan: "./지도안/블록16_지도안_총괄평가II.html",
+        worksheet: "./학습지/블록16_학습지_총괄평가II.html"
     },
     {
         id: 17,
@@ -303,7 +303,7 @@ const blocksData = [
         ],
         thinkingRoutine: "I Used to Think...Now I Think, What? So What? Now What?",
         keywords: ["성찰", "다짐", "세계시민"],
-        lessonPlan: "../지도안/블록17_지도안_클로징환경과함께하는미래.html",
-        worksheet: "../학습지/블록17_학습지_클로징환경과함께하는미래.html"
+        lessonPlan: "./지도안/블록17_지도안_클로징환경과함께하는미래.html",
+        worksheet: "./학습지/블록17_학습지_클로징환경과함께하는미래.html"
     }
 ];
