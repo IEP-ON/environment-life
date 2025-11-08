@@ -444,31 +444,5 @@ function createFeaturesContent() {
 
 function createPlanContent() {
     return `
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-            <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px;">
-                <h4 style="font-size: 1.5em; margin-bottom: 15px;">📚 현장 적용</h4>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="padding: 5px 0;">✓ 2025학년도 적용</li>
-                    <li style="padding: 5px 0;">✓ 블록타임제 운영</li>
-                    <li style="padding: 5px 0;">✓ 수업 공개</li>
-                </ul>
-            </div>
-            <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px;">
-                <h4 style="font-size: 1.5em; margin-bottom: 15px;">🔄 지속적 개선</h4>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="padding: 5px 0;">✓ 평가 분석</li>
-                    <li style="padding: 5px 0;">✓ 자료 보완</li>
-                    <li style="padding: 5px 0;">✓ 이슈 반영</li>
-                </ul>
-            </div>
-            <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px;">
-                <h4 style="font-size: 1.5em; margin-bottom: 15px;">📤 공유 및 확산</h4>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="padding: 5px 0;">✓ 교육청 공유</li>
-                    <li style="padding: 5px 0;">✓ 타 학교 지원</li>
-                    <li style="padding: 5px 0;">✓ 교사 연수</li>
-                </ul>
-            </div>
-        </div>
     `;
 }
