@@ -318,8 +318,8 @@ function createMaterialsContent() {
             <h4 style="font-size: 1.4em; margin-bottom: 15px;">📁 개발 완료 산출물</h4>
             <p style="margin-bottom: 20px;"><strong>총 34개 파일</strong> - 지도안 17개 + 학습지 17개</p>
             <div style="display: flex; gap: 15px; justify-content: center;">
-                <a href="../지도안/" style="background: white; color: #333; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: 600;">지도안 폴더</a>
-                <a href="../학습지/" style="background: white; color: #333; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: 600;">학습지 폴더</a>
+                <a href="./지도안/" style="background: white; color: #333; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: 600;">지도안 폴더</a>
+                <a href="./학습지/" style="background: white; color: #333; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: 600;">학습지 폴더</a>
             </div>
         </div>
         
