@@ -65,32 +65,6 @@ function createFeatures() {
 
 function createPlanSection() {
     return `
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 40px;">
-            <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px;">
-                <h4 style="font-size: 1.5em; margin-bottom: 15px;">📚 현장 적용</h4>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="padding: 8px 0; position: relative; padding-left: 25px;"><span style="position: absolute; left: 0; color: #43cea2;">✓</span>2025학년도 초등 6학년 적용</li>
-                    <li style="padding: 8px 0; position: relative; padding-left: 25px;"><span style="position: absolute; left: 0; color: #43cea2;">✓</span>블록타임제 운영</li>
-                    <li style="padding: 8px 0; position: relative; padding-left: 25px;"><span style="position: absolute; left: 0; color: #43cea2;">✓</span>수업 공개 및 컨설팅</li>
-                </ul>
-            </div>
-            <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px;">
-                <h4 style="font-size: 1.5em; margin-bottom: 15px;">🔄 지속적 개선</h4>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="padding: 8px 0; position: relative; padding-left: 25px;"><span style="position: absolute; left: 0; color: #43cea2;">✓</span>학생 반응 및 평가 분석</li>
-                    <li style="padding: 8px 0; position: relative; padding-left: 25px;"><span style="position: absolute; left: 0; color: #43cea2;">✓</span>교수학습 자료 보완</li>
-                    <li style="padding: 8px 0; position: relative; padding-left: 25px;"><span style="position: absolute; left: 0; color: #43cea2;">✓</span>최신 환경 이슈 반영</li>
-                </ul>
-            </div>
-            <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px;">
-                <h4 style="font-size: 1.5em; margin-bottom: 15px;">📤 공유 및 확산</h4>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="padding: 8px 0; position: relative; padding-left: 25px;"><span style="position: absolute; left: 0; color: #43cea2;">✓</span>교육청 자료 공유</li>
-                    <li style="padding: 8px 0; position: relative; padding-left: 25px;"><span style="position: absolute; left: 0; color: #43cea2;">✓</span>타 학교 적용 지원</li>
-                    <li style="padding: 8px 0; position: relative; padding-left: 25px;"><span style="position: absolute; left: 0; color: #43cea2;">✓</span>교사 연수 자료 활용</li>
-                </ul>
-            </div>
-        </div>
         <div style="background: rgba(255, 165, 0, 0.2); border-left: 5px solid #ffa500; padding: 25px; border-radius: 10px;">
             <h4 style="font-size: 1.4em; margin-bottom: 15px;">⭐ 기대 효과</h4>
             <ul style="list-style: none; padding: 0;">
