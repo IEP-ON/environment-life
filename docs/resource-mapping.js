@@ -136,23 +136,23 @@ function createResourceMappingSection() {
                 </div>
 
                 <div>
-                    <h5 style="font-weight: 600; margin-bottom: 15px;">카테고리별 활용 현황</h5>
+                    <h5 style="font-weight: 600; margin-bottom: 15px; color: #2c5f2d;">카테고리별 활용 현황</h5>
                     <table style="width: 100%; border-collapse: collapse;">
-                        <thead style="background: #f8f9fa;">
+                        <thead style="background: linear-gradient(135deg, #2c5f2d 0%, #43cea2 100%); color: white;">
                             <tr>
-                                <th style="padding: 12px; text-align: left;">자료 카테고리</th>
-                                <th style="padding: 12px; text-align: center;">활용 블록 수</th>
-                                <th style="padding: 12px; text-align: left;">주요 활용 내용</th>
+                                <th style="padding: 12px; text-align: left; font-weight: 700;">자료 카테고리</th>
+                                <th style="padding: 12px; text-align: center; font-weight: 700;">활용 블록 수</th>
+                                <th style="padding: 12px; text-align: left; font-weight: 700;">주요 활용 내용</th>
                             </tr>
                         </thead>
                         <tbody>
-                            ${resourceMappingData.statistics.resourceCategories.map(cat => `
-                                <tr style="border-bottom: 1px solid #eee;">
-                                    <td style="padding: 12px; font-weight: 600;">${cat.category}</td>
+                            ${resourceMappingData.statistics.resourceCategories.map((cat, idx) => `
+                                <tr style="border-bottom: 1px solid #eee; background: ${idx % 2 === 0 ? '#f8f9fa' : '#ffffff'};">
+                                    <td style="padding: 12px; font-weight: 600; color: #2c5f2d;">${cat.category}</td>
                                     <td style="padding: 12px; text-align: center;">
-                                        <span style="background: #43cea2; color: white; padding: 4px 12px; border-radius: 15px; font-size: 0.9em;">${cat.blocks}개</span>
+                                        <span style="background: #43cea2; color: white; padding: 4px 12px; border-radius: 15px; font-size: 0.9em; font-weight: 600;">${cat.blocks}개</span>
                                     </td>
-                                    <td style="padding: 12px; color: #666;">${cat.usage}</td>
+                                    <td style="padding: 12px; color: #333;">${cat.usage}</td>
                                 </tr>
                             `).join('')}
                         </tbody>

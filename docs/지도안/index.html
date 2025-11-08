@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지도안 목록 - 환경과 삶 II</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            color: #2c5f2d;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-bottom: 30px;
+            padding: 12px 25px;
+            background: white;
+            color: #2c5f2d;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        
+        .lesson-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .lesson-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border-left: 5px solid #43cea2;
+        }
+        
+        .lesson-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .lesson-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #2c5f2d 0%, #43cea2 100%);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .lesson-title {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #2c5f2d;
+            margin-bottom: 15px;
+        }
+        
+        .lesson-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #2c5f2d 0%, #43cea2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .lesson-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(67, 206, 162, 0.4);
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../" class="back-button">← 돌아가기</a>
+        
+        <div class="header">
+            <h1>📝 지도안 목록</h1>
+            <p>환경과 삶 II - 교사용 수업 지도안 (17개)</p>
+        </div>
+        
+        <div class="lesson-grid">
+            <div class="lesson-card">
+                <div class="lesson-number">블록 1</div>
+                <div class="lesson-title">환경과 나의 삶</div>
+                <a href="블록01_지도안_환경과나의삶.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 2</div>
+                <div class="lesson-title">일상 속 환경문제 발견</div>
+                <a href="블록02_지도안_일상속환경문제발견.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 3</div>
+                <div class="lesson-title">개인의 선택과 지구환경</div>
+                <a href="블록03_지도안_개인의선택과지구환경.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 4</div>
+                <div class="lesson-title">환경문제 해결의 태도</div>
+                <a href="블록04_지도안_환경문제해결의태도.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 5</div>
+                <div class="lesson-title">기후변화의 원인과 현상</div>
+                <a href="블록05_지도안_기후변화의원인과현상.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 6</div>
+                <div class="lesson-title">생물다양성의 중요성</div>
+                <a href="블록06_지도안_생물다양성의중요성.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 7</div>
+                <div class="lesson-title">지속가능발전과 연대</div>
+                <a href="블록07_지도안_지속가능발전과연대.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 8</div>
+                <div class="lesson-title">총괄평가 I</div>
+                <a href="블록08_지도안_총괄평가I.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 9</div>
+                <div class="lesson-title">세계화와 환경문제 연결성</div>
+                <a href="블록09_지도안_세계화와환경문제연결성.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 10</div>
+                <div class="lesson-title">환경문제의 복잡성·불확실성</div>
+                <a href="블록10_지도안_환경문제의복잡성불확실성.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 11</div>
+                <div class="lesson-title">지속가능 미래 위한 협력</div>
+                <a href="블록11_지도안_지속가능미래위한협력.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 12</div>
+                <div class="lesson-title">지속가능 미래 저해 요인</div>
+                <a href="블록12_지도안_지속가능미래저해요인.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 13</div>
+                <div class="lesson-title">환경 감수성 기르기</div>
+                <a href="블록13_지도안_환경감수성기르기.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 14</div>
+                <div class="lesson-title">생활 속 생태전환 실천</div>
+                <a href="블록14_지도안_생활속생태전환실천.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 15</div>
+                <div class="lesson-title">학교·지역 생태전환</div>
+                <a href="블록15_지도안_학교지역생태전환.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 16</div>
+                <div class="lesson-title">총괄평가 II</div>
+                <a href="블록16_지도안_총괄평가II.html" class="lesson-link">지도안 보기</a>
+            </div>
+            
+            <div class="lesson-card">
+                <div class="lesson-number">블록 17</div>
+                <div class="lesson-title">클로징: 환경과 함께하는 미래</div>
+                <a href="블록17_지도안_클로징환경과함께하는미래.html" class="lesson-link">지도안 보기</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🌍 환경과 삶 II 교육과정 개발 프로젝트</p>
+            <p>2025 남대구초등학교 교육과정 개발팀</p>
+        </div>
+    </div>
+</body>
+</html>
