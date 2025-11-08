@@ -115,7 +115,7 @@ function createResourceMappingSection() {
 
             <!-- 자료 활용 통계 -->
             <div style="background: white; padding: 30px; border-radius: 15px; margin-bottom: 40px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-                <h4 style="font-size: 1.4em; margin-bottom: 20px; text-align: center;">📈 자료 활용 통계</h4>
+                <h4 style="font-size: 1.4em; margin-bottom: 20px; text-align: center; color: #2c5f2d;">📈 자료 활용 통계</h4>
                 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px;">
                     <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%); color: white; border-radius: 10px;">
@@ -138,16 +138,16 @@ function createResourceMappingSection() {
                 <div>
                     <h5 style="font-weight: 600; margin-bottom: 15px; color: #2c5f2d;">카테고리별 활용 현황</h5>
                     <table style="width: 100%; border-collapse: collapse;">
-                        <thead style="background: linear-gradient(135deg, #2c5f2d 0%, #43cea2 100%); color: white;">
+                        <thead style="background: #f8f9fa;">
                             <tr>
-                                <th style="padding: 12px; text-align: left; font-weight: 700;">자료 카테고리</th>
-                                <th style="padding: 12px; text-align: center; font-weight: 700;">활용 블록 수</th>
-                                <th style="padding: 12px; text-align: left; font-weight: 700;">주요 활용 내용</th>
+                                <th style="padding: 12px; text-align: left; font-weight: 700; color: #2c5f2d;">자료 카테고리</th>
+                                <th style="padding: 12px; text-align: center; font-weight: 700; color: #2c5f2d;">활용 블록 수</th>
+                                <th style="padding: 12px; text-align: left; font-weight: 700; color: #2c5f2d;">주요 활용 내용</th>
                             </tr>
                         </thead>
                         <tbody>
-                            ${resourceMappingData.statistics.resourceCategories.map((cat, idx) => `
-                                <tr style="border-bottom: 1px solid #eee; background: ${idx % 2 === 0 ? '#f8f9fa' : '#ffffff'};">
+                            ${resourceMappingData.statistics.resourceCategories.map(cat => `
+                                <tr style="border-bottom: 1px solid #eee;">
                                     <td style="padding: 12px; font-weight: 600; color: #2c5f2d;">${cat.category}</td>
                                     <td style="padding: 12px; text-align: center;">
                                         <span style="background: #43cea2; color: white; padding: 4px 12px; border-radius: 15px; font-size: 0.9em; font-weight: 600;">${cat.blocks}개</span>
@@ -182,7 +182,7 @@ function createResourceMappingSection() {
 
             <!-- 주요 블록별 자료 상세 -->
             <div>
-                <h4 style="font-size: 1.4em; margin-bottom: 20px; text-align: center;">📚 주요 블록별 자료 활용 사례</h4>
+                <h4 style="font-size: 1.4em; margin-bottom: 20px; text-align: center; color: #2c5f2d;">📚 주요 블록별 자료 활용 사례</h4>
                 <div style="display: grid; gap: 25px;">
                     ${resourceMappingData.blockResources.map(block => createBlockResourceCard(block)).join('')}
                 </div>
@@ -204,19 +204,19 @@ function createBlockResourceCard(block) {
             </div>
 
             <div style="margin-bottom: 20px;">
-                <div style="font-weight: 600; margin-bottom: 10px; color: #555;">📄 활용 자료</div>
+                <div style="font-weight: 600; margin-bottom: 10px; color: #2c5f2d;">📄 활용 자료</div>
                 <div style="background: #f8f9fa; padding: 15px; border-radius: 8px;">
                     ${block.resources.map(resource => `
                         <div style="margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #eee; ${resource === block.resources[block.resources.length-1] ? 'border-bottom: none; margin-bottom: 0; padding-bottom: 0;' : ''}">
                             <div style="font-weight: 500; color: #2c5f2d; font-size: 0.9em;">${resource.name}</div>
-                            <div style="font-size: 0.85em; color: #666; margin-top: 3px;">→ ${resource.usage}</div>
+                            <div style="font-size: 0.85em; color: #333; margin-top: 3px;">→ ${resource.usage}</div>
                         </div>
                     `).join('')}
                 </div>
             </div>
 
             <div style="margin-bottom: 20px;">
-                <div style="font-weight: 600; margin-bottom: 10px; color: #555;">🌍 차별화 포인트</div>
+                <div style="font-weight: 600; margin-bottom: 10px; color: #2c5f2d;">🌍 차별화 포인트</div>
                 <div style="display: flex; flex-wrap: wrap; gap: 8px;">
                     ${block.differentiation.map(point => `
                         <span style="background: #e8f5e9; color: #2c5f2d; padding: 6px 12px; border-radius: 15px; font-size: 0.85em; font-weight: 500;">${point}</span>
@@ -225,7 +225,7 @@ function createBlockResourceCard(block) {
             </div>
 
             <div>
-                <div style="font-weight: 600; margin-bottom: 10px; color: #555;">🎬 멀티미디어 자료</div>
+                <div style="font-weight: 600; margin-bottom: 10px; color: #2c5f2d;">🎬 멀티미디어 자료</div>
                 <div style="display: flex; flex-wrap: wrap; gap: 8px;">
                     ${block.multimedia.map(media => `
                         <span style="background: #f0f8ff; color: #185a9d; padding: 6px 12px; border-radius: 15px; font-size: 0.85em;">${media}</span>
