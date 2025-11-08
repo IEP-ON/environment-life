@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
